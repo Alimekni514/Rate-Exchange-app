@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    font-family: 'Poppins';
+
+}
+.currencybox {
+    width: 600PX;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    padding: 20px;
+   
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0099F7;  /* fallback for old browsers */
+}
+
+.currencybox .handle {
+    display: flex;
+    justify-content: space-between;
+}
+.currencybox h3 {
+     width: fit-content;
+    display: flex;
+    margin: 10px auto 30px;
+}
+.currencybox .handle .first input ,.currencybox .handle .second input {
+    border-radius: 4px;
+    border: 1px solid #333;
+}
+.currencybox .handle .second input  {
+    pointer-events: none;
+    background-color: #ececec;
+}
+select {
+    padding: 1px;
+    border-radius: 3px;
+    border: 1px solid #ececec;
+}
+#convert {
+    border-radius: 4px;
+    color: #FFF;
+    display: flex;
+    margin: 20px auto 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border: none;
+    padding: 10px 15px;
+}
+
+select option {
+    display: block;
+    padding: 10px;
+}

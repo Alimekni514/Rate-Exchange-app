@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Money-Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <div class="currencybox">
+        <h3>currency converter</h3>
+        <div class="handle">
+            <div class="first">
+                <input type="text" id="from" onkeyup="ConvertCurrencies(this)"/>
+                <select>
+                </select>
+            </div>
+            <i class="fa-solid fa-right-left change"></i>
+            <div class="second">
+                <input type="text" id="to" readonly />
+                <select value="EUR">
+                </select>
+            </div>
+        </div>
+        <button id="convert" onclick="ConvertCurrencies()">Convert</button>
+        <script src="main.js"></script>
+    </div>
+</body>
+</html>
